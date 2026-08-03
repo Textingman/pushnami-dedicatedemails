@@ -45,9 +45,9 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
-            <p style={{ color: '#A5F3FC' }}>support@dedicatedemails.com</p>
-            <p className="mt-2" style={{ color: '#A5F3FC' }}>8 The Green, Ste A, Dover, DE 19901</p>
-            <p className="mt-2" style={{ color: '#A5F3FC' }}>(855) 334-3624</p>
+            <p style={{ color: '#A5F3FC' }}>support@usededicatedemailing.com</p>
+            <p className="mt-2" style={{ color: '#A5F3FC' }}>6102 Cherrylawn Cir, Austin, TX 78723</p>
+            <p className="mt-2" style={{ color: '#A5F3FC' }}>+1 (844) 238-4155</p>
           </div>
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #0891B2', color: '#A5F3FC' }}>

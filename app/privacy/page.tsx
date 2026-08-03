@@ -33,7 +33,7 @@ export default function PrivacyPage() {
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
             <li>You may receive Account Notification messages and/or Customer Care messages depending on your opt-in selections.</li>
             <li>Message and data rates may apply. Message frequency varies.</li>
-            <li>To opt out, reply STOP to any message. To get help, reply HELP or contact us at support@dedicatedemails.com.</li>
+            <li>To opt out, reply STOP to any message. To get help, reply HELP or contact us at support@usededicatedemailing.com.</li>
             <li><strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong></li>
             <li>Opting in to SMS is optional and not required to use our service.</li>
           </ul>
@@ -48,8 +48,8 @@ export default function PrivacyPage() {
           <p className="mb-6" style={{ color: '#6B7280' }}>
             If you have questions about this Privacy Policy, please contact us at:<br />
             Dedicated Emails<br />
-            8 The Green, Ste A, Dover, DE 19901<br />
-            Email: <a href="mailto:support@dedicatedemails.com" style={{ color: '#0891B2' }}>support@dedicatedemails.com</a>
+            6102 Cherrylawn Cir, Austin, TX 78723<br />
+            Email: <a href="mailto:support@usededicatedemailing.com" style={{ color: '#0891B2' }}>support@usededicatedemailing.com</a>
           </p>
         </div>
       </section>
