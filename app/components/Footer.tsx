@@ -33,6 +33,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/about" style={{ color: '#A5F3FC' }} className="hover:text-white">About</Link></li>
               <li><Link href="/compare" style={{ color: '#A5F3FC' }} className="hover:text-white">Compare</Link></li>
+              <li><Link href="/signup" style={{ color: '#A5F3FC' }} className="hover:text-white">Sign Up</Link></li>
               <li><Link href="/demo" style={{ color: '#A5F3FC' }} className="hover:text-white">Book a Demo</Link></li>
             </ul>
           </div>

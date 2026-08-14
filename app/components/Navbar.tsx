@@ -45,6 +45,9 @@ export default function Navbar() {
               <Link href="/compare" style={{ color: linkColor('/compare') }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
                 Compare
               </Link>
+              <Link href="/signup" style={{ color: linkColor('/signup') }} className="hover:opacity-80 px-3 py-2 rounded-md text-sm font-medium">
+                Sign Up
+              </Link>
               <Link href="/demo" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#0891B2' }}>
                 Book a Demo
               </Link>
