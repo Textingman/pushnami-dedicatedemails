@@ -281,55 +281,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-20" style={{ backgroundColor: '#F9FAFB' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold" style={{ color: '#1F2937' }}>What Our Customers Say</h2>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                quote: 'Dedicated Emails caught a CAN-SPAM violation in our campaign before it went out. That one alert saved us from a potential $50K fine.',
-                name: 'Sarah K.',
-                role: 'Head of Engineering, RetailMax',
-                initials: 'SK',
-              },
-              {
-                quote: 'The compliance dashboard gives our legal team exactly what they need for quarterly audits. We went from 2 days of prep to 20 minutes.',
-                name: 'Marcus T.',
-                role: 'VP Marketing, FinTech Corp',
-                initials: 'MT',
-              },
-              {
-                quote: 'We needed GDPR-compliant email delivery with a full audit trail. Dedicated Emails was the only platform that had everything out of the box.',
-                name: 'Priya L.',
-                role: 'CTO, SaaS Labs',
-                initials: 'PL',
-              },
-            ].map((t) => (
-              <div key={t.name} className="rounded-2xl p-8 border" style={{ borderColor: '#E5E7EB', backgroundColor: '#FFFFFF' }}>
-                <div className="flex mb-4">
-                  {[1,2,3,4,5].map((s) => (
-                    <Star key={s} className="w-4 h-4" style={{ color: '#F59E0B', fill: '#F59E0B' }} />
-                  ))}
-                </div>
-                <p className="mb-6 italic" style={{ color: '#374151' }}>&ldquo;{t.quote}&rdquo;</p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white text-sm font-bold" style={{ backgroundColor: '#0891B2' }}>
-                    {t.initials}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-sm" style={{ color: '#1F2937' }}>{t.name}</div>
-                    <div className="text-xs" style={{ color: '#6B7280' }}>{t.role}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20" style={{ backgroundColor: '#ECFEFF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
