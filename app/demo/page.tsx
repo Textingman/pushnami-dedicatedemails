@@ -128,7 +128,7 @@ export default function DemoPage() {
                           value={form.firstName}
                           onChange={(e) => setForm({ ...form, firstName: e.target.value })}
                           className="w-full px-4 py-3 rounded-lg border text-sm focus:outline-none focus:ring-2"
-                          style={{ borderColor: '#D1D5DB', focusRingColor: '#0891B2' }}
+                          style={{ borderColor: '#D1D5DB' }}
                           placeholder="Jane"
                         />
                       </div>
