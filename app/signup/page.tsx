@@ -210,9 +210,17 @@ export default function SignupPage() {
                 {errors.confirmPassword && <p className="text-xs mt-1" style={{ color: '#EF4444' }}>{errors.confirmPassword}</p>}
               </div>
 
-              {/* Terms */}
+              {/* Transactional SMS consent */}
               <div className="flex items-start gap-3 pt-1">
-                <input type="checkbox" id="terms" required className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#0891B2' }} />
+                <input type="checkbox" id="accountNotifications" className="mt-1 w-4 h-4 rounded flex-shrink-0" style={{ accentColor: '#0891B2' }} />
+                <label htmlFor="accountNotifications" className="text-xs" style={{ color: '#6B7280' }}>
+                  By checking this box, I agree to receive Transactional Account Notification SMS messages from Dedicated Emails at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
+                </label>
+              </div>
+
+              {/* Terms */}
+              <div className="flex items-start gap-3">
+                <input type="checkbox" id="terms" required className="mt-1 w-4 h-4 rounded flex-shrink-0" style={{ accentColor: '#0891B2' }} />
                 <label htmlFor="terms" className="text-xs" style={{ color: '#6B7280' }}>
                   I agree to the{' '}
                   <Link href="/terms" className="underline" style={{ color: '#0891B2' }}>Terms of Service</Link>
